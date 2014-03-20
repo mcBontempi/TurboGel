@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60A18B718158A2800E66DB9 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D60A18B618158A2800E66DB9 /* Background.png */; };
+		D60A18FF18185A5300E66DB9 /* GelStick.png in Resources */ = {isa = PBXBuildFile; fileRef = D60A18FE18185A5300E66DB9 /* GelStick.png */; };
+		D668E01718140BF900F2CD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E01618140BF900F2CD82 /* Foundation.framework */; };
+		D668E01918140BF900F2CD82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E01818140BF900F2CD82 /* CoreGraphics.framework */; };
+		D668E01B18140BF900F2CD82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E01A18140BF900F2CD82 /* UIKit.framework */; };
+		D668E01D18140BF900F2CD82 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E01C18140BF900F2CD82 /* SpriteKit.framework */; };
+		D668E02318140BF900F2CD82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D668E02118140BF900F2CD82 /* InfoPlist.strings */; };
+		D668E02518140BF900F2CD82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D668E02418140BF900F2CD82 /* main.m */; };
+		D668E02918140BF900F2CD82 /* DDTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D668E02818140BF900F2CD82 /* DDTAppDelegate.m */; };
+		D668E02C18140BF900F2CD82 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D668E02A18140BF900F2CD82 /* Main_iPhone.storyboard */; };
+		D668E02F18140BF900F2CD82 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D668E02D18140BF900F2CD82 /* Main_iPad.storyboard */; };
+		D668E03218140BF900F2CD82 /* DDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D668E03118140BF900F2CD82 /* DDTViewController.m */; };
+		D668E03518140BF900F2CD82 /* DDTMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D668E03418140BF900F2CD82 /* DDTMyScene.m */; };
+		D668E03718140BF900F2CD82 /* Gel.png in Resources */ = {isa = PBXBuildFile; fileRef = D668E03618140BF900F2CD82 /* Gel.png */; };
+		D668E03918140BF900F2CD82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D668E03818140BF900F2CD82 /* Images.xcassets */; };
+		D668E04018140BF900F2CD82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E03F18140BF900F2CD82 /* XCTest.framework */; };
+		D668E04118140BF900F2CD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E01618140BF900F2CD82 /* Foundation.framework */; };
+		D668E04218140BF900F2CD82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E01A18140BF900F2CD82 /* UIKit.framework */; };
+		D668E04A18140BF900F2CD82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D668E04818140BF900F2CD82 /* InfoPlist.strings */; };
+		D668E04C18140BF900F2CD82 /* TurboGelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D668E04B18140BF900F2CD82 /* TurboGelTests.m */; };
+		D668E05818143BA800F2CD82 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D668E05618143BA800F2CD82 /* Spaceship.png */; };
+		D668E05A18143EB300F2CD82 /* A quite unusual day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D668E05918143EB300F2CD82 /* A quite unusual day.mp3 */; };
+		D668E05C18143F2E00F2CD82 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E05B18143F2E00F2CD82 /* AudioToolbox.framework */; };
+		D668E05E18143F6500F2CD82 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668E05D18143F6500F2CD82 /* AVFoundation.framework */; };
+		D6EE0C751819A7EC00985D63 /* GelStickOther.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C741819A7EC00985D63 /* GelStickOther.png */; };
+		D6EE0C77181A3CB900985D63 /* bullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C76181A3CB900985D63 /* bullet.wav */; };
+		D6EE0C83181A937800985D63 /* BackgroundTean.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C82181A937800985D63 /* BackgroundTean.png */; };
+		D6EE0C89181AA08300985D63 /* Smoke1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C84181AA08300985D63 /* Smoke1.png */; };
+		D6EE0C8A181AA08300985D63 /* Smoke2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C85181AA08300985D63 /* Smoke2.png */; };
+		D6EE0C8B181AA08300985D63 /* Smoke3.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C86181AA08300985D63 /* Smoke3.png */; };
+		D6EE0C8C181AA08300985D63 /* Smoke4.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C87181AA08300985D63 /* Smoke4.png */; };
+		D6EE0C8D181AA08300985D63 /* Smoke5.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EE0C88181AA08300985D63 /* Smoke5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D668E04318140BF900F2CD82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668E00B18140BF900F2CD82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D668E01218140BF900F2CD82;
+			remoteInfo = TurboGel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D60A18B618158A2800E66DB9 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		D60A18FE18185A5300E66DB9 /* GelStick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GelStick.png; sourceTree = "<group>"; };
+		D668E01318140BF900F2CD82 /* TurboGel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboGel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D668E01618140BF900F2CD82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D668E01818140BF900F2CD82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D668E01A18140BF900F2CD82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D668E01C18140BF900F2CD82 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D668E02018140BF900F2CD82 /* TurboGel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TurboGel-Info.plist"; sourceTree = "<group>"; };
+		D668E02218140BF900F2CD82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D668E02418140BF900F2CD82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D668E02618140BF900F2CD82 /* TurboGel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TurboGel-Prefix.pch"; sourceTree = "<group>"; };
+		D668E02718140BF900F2CD82 /* DDTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTAppDelegate.h; sourceTree = "<group>"; };
+		D668E02818140BF900F2CD82 /* DDTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTAppDelegate.m; sourceTree = "<group>"; };
+		D668E02B18140BF900F2CD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D668E02E18140BF900F2CD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D668E03018140BF900F2CD82 /* DDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTViewController.h; sourceTree = "<group>"; };
+		D668E03118140BF900F2CD82 /* DDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTViewController.m; sourceTree = "<group>"; };
+		D668E03318140BF900F2CD82 /* DDTMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTMyScene.h; sourceTree = "<group>"; };
+		D668E03418140BF900F2CD82 /* DDTMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTMyScene.m; sourceTree = "<group>"; };
+		D668E03618140BF900F2CD82 /* Gel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gel.png; sourceTree = "<group>"; };
+		D668E03818140BF900F2CD82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D668E03E18140BF900F2CD82 /* TurboGelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboGelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D668E03F18140BF900F2CD82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D668E04718140BF900F2CD82 /* TurboGelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TurboGelTests-Info.plist"; sourceTree = "<group>"; };
+		D668E04918140BF900F2CD82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D668E04B18140BF900F2CD82 /* TurboGelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurboGelTests.m; sourceTree = "<group>"; };
+		D668E05618143BA800F2CD82 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		D668E05918143EB300F2CD82 /* A quite unusual day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A quite unusual day.mp3"; sourceTree = "<group>"; };
+		D668E05B18143F2E00F2CD82 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D668E05D18143F6500F2CD82 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D6EE0C741819A7EC00985D63 /* GelStickOther.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GelStickOther.png; sourceTree = "<group>"; };
+		D6EE0C76181A3CB900985D63 /* bullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bullet.wav; sourceTree = "<group>"; };
+		D6EE0C82181A937800985D63 /* BackgroundTean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundTean.png; sourceTree = "<group>"; };
+		D6EE0C84181AA08300985D63 /* Smoke1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke1.png; sourceTree = "<group>"; };
+		D6EE0C85181AA08300985D63 /* Smoke2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke2.png; sourceTree = "<group>"; };
+		D6EE0C86181AA08300985D63 /* Smoke3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke3.png; sourceTree = "<group>"; };
+		D6EE0C87181AA08300985D63 /* Smoke4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke4.png; sourceTree = "<group>"; };
+		D6EE0C88181AA08300985D63 /* Smoke5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D668E01018140BF900F2CD82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668E01918140BF900F2CD82 /* CoreGraphics.framework in Frameworks */,
+				D668E01B18140BF900F2CD82 /* UIKit.framework in Frameworks */,
+				D668E05E18143F6500F2CD82 /* AVFoundation.framework in Frameworks */,
+				D668E05C18143F2E00F2CD82 /* AudioToolbox.framework in Frameworks */,
+				D668E01D18140BF900F2CD82 /* SpriteKit.framework in Frameworks */,
+				D668E01718140BF900F2CD82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668E03B18140BF900F2CD82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668E04018140BF900F2CD82 /* XCTest.framework in Frameworks */,
+				D668E04218140BF900F2CD82 /* UIKit.framework in Frameworks */,
+				D668E04118140BF900F2CD82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D668E00A18140BF900F2CD82 = {
+			isa = PBXGroup;
+			children = (
+				D668E01E18140BF900F2CD82 /* TurboGel */,
+				D668E04518140BF900F2CD82 /* TurboGelTests */,
+				D668E01518140BF900F2CD82 /* Frameworks */,
+				D668E01418140BF900F2CD82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D668E01418140BF900F2CD82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D668E01318140BF900F2CD82 /* TurboGel.app */,
+				D668E03E18140BF900F2CD82 /* TurboGelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D668E01518140BF900F2CD82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D668E05D18143F6500F2CD82 /* AVFoundation.framework */,
+				D668E05B18143F2E00F2CD82 /* AudioToolbox.framework */,
+				D668E01618140BF900F2CD82 /* Foundation.framework */,
+				D668E01818140BF900F2CD82 /* CoreGraphics.framework */,
+				D668E01A18140BF900F2CD82 /* UIKit.framework */,
+				D668E01C18140BF900F2CD82 /* SpriteKit.framework */,
+				D668E03F18140BF900F2CD82 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D668E01E18140BF900F2CD82 /* TurboGel */ = {
+			isa = PBXGroup;
+			children = (
+				D668E02718140BF900F2CD82 /* DDTAppDelegate.h */,
+				D668E02818140BF900F2CD82 /* DDTAppDelegate.m */,
+				D668E02A18140BF900F2CD82 /* Main_iPhone.storyboard */,
+				D668E02D18140BF900F2CD82 /* Main_iPad.storyboard */,
+				D668E03018140BF900F2CD82 /* DDTViewController.h */,
+				D668E03118140BF900F2CD82 /* DDTViewController.m */,
+				D668E03318140BF900F2CD82 /* DDTMyScene.h */,
+				D668E03418140BF900F2CD82 /* DDTMyScene.m */,
+				D6EE0C84181AA08300985D63 /* Smoke1.png */,
+				D6EE0C85181AA08300985D63 /* Smoke2.png */,
+				D6EE0C86181AA08300985D63 /* Smoke3.png */,
+				D6EE0C87181AA08300985D63 /* Smoke4.png */,
+				D6EE0C88181AA08300985D63 /* Smoke5.png */,
+				D668E05618143BA800F2CD82 /* Spaceship.png */,
+				D60A18B618158A2800E66DB9 /* Background.png */,
+				D668E03618140BF900F2CD82 /* Gel.png */,
+				D6EE0C741819A7EC00985D63 /* GelStickOther.png */,
+				D60A18FE18185A5300E66DB9 /* GelStick.png */,
+				D6EE0C76181A3CB900985D63 /* bullet.wav */,
+				D6EE0C82181A937800985D63 /* BackgroundTean.png */,
+				D668E05918143EB300F2CD82 /* A quite unusual day.mp3 */,
+				D668E03818140BF900F2CD82 /* Images.xcassets */,
+				D668E01F18140BF900F2CD82 /* Supporting Files */,
+			);
+			path = TurboGel;
+			sourceTree = "<group>";
+		};
+		D668E01F18140BF900F2CD82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D668E02018140BF900F2CD82 /* TurboGel-Info.plist */,
+				D668E02118140BF900F2CD82 /* InfoPlist.strings */,
+				D668E02418140BF900F2CD82 /* main.m */,
+				D668E02618140BF900F2CD82 /* TurboGel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D668E04518140BF900F2CD82 /* TurboGelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D668E04B18140BF900F2CD82 /* TurboGelTests.m */,
+				D668E04618140BF900F2CD82 /* Supporting Files */,
+			);
+			path = TurboGelTests;
+			sourceTree = "<group>";
+		};
+		D668E04618140BF900F2CD82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D668E04718140BF900F2CD82 /* TurboGelTests-Info.plist */,
+				D668E04818140BF900F2CD82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D668E01218140BF900F2CD82 /* TurboGel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D668E04F18140BF900F2CD82 /* Build configuration list for PBXNativeTarget "TurboGel" */;
+			buildPhases = (
+				D668E00F18140BF900F2CD82 /* Sources */,
+				D668E01018140BF900F2CD82 /* Frameworks */,
+				D668E01118140BF900F2CD82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurboGel;
+			productName = TurboGel;
+			productReference = D668E01318140BF900F2CD82 /* TurboGel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D668E03D18140BF900F2CD82 /* TurboGelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D668E05218140BF900F2CD82 /* Build configuration list for PBXNativeTarget "TurboGelTests" */;
+			buildPhases = (
+				D668E03A18140BF900F2CD82 /* Sources */,
+				D668E03B18140BF900F2CD82 /* Frameworks */,
+				D668E03C18140BF900F2CD82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D668E04418140BF900F2CD82 /* PBXTargetDependency */,
+			);
+			name = TurboGelTests;
+			productName = TurboGelTests;
+			productReference = D668E03E18140BF900F2CD82 /* TurboGelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D668E00B18140BF900F2CD82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DDT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = DarenDavidTaylor.com;
+				TargetAttributes = {
+					D668E03D18140BF900F2CD82 = {
+						TestTargetID = D668E01218140BF900F2CD82;
+					};
+				};
+			};
+			buildConfigurationList = D668E00E18140BF900F2CD82 /* Build configuration list for PBXProject "TurboGel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D668E00A18140BF900F2CD82;
+			productRefGroup = D668E01418140BF900F2CD82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D668E01218140BF900F2CD82 /* TurboGel */,
+				D668E03D18140BF900F2CD82 /* TurboGelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D668E01118140BF900F2CD82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668E05818143BA800F2CD82 /* Spaceship.png in Resources */,
+				D668E05A18143EB300F2CD82 /* A quite unusual day.mp3 in Resources */,
+				D6EE0C77181A3CB900985D63 /* bullet.wav in Resources */,
+				D668E03718140BF900F2CD82 /* Gel.png in Resources */,
+				D60A18FF18185A5300E66DB9 /* GelStick.png in Resources */,
+				D6EE0C89181AA08300985D63 /* Smoke1.png in Resources */,
+				D6EE0C8A181AA08300985D63 /* Smoke2.png in Resources */,
+				D668E03918140BF900F2CD82 /* Images.xcassets in Resources */,
+				D668E02F18140BF900F2CD82 /* Main_iPad.storyboard in Resources */,
+				D6EE0C83181A937800985D63 /* BackgroundTean.png in Resources */,
+				D668E02C18140BF900F2CD82 /* Main_iPhone.storyboard in Resources */,
+				D60A18B718158A2800E66DB9 /* Background.png in Resources */,
+				D668E02318140BF900F2CD82 /* InfoPlist.strings in Resources */,
+				D6EE0C751819A7EC00985D63 /* GelStickOther.png in Resources */,
+				D6EE0C8D181AA08300985D63 /* Smoke5.png in Resources */,
+				D6EE0C8B181AA08300985D63 /* Smoke3.png in Resources */,
+				D6EE0C8C181AA08300985D63 /* Smoke4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668E03C18140BF900F2CD82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668E04A18140BF900F2CD82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D668E00F18140BF900F2CD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668E02518140BF900F2CD82 /* main.m in Sources */,
+				D668E03218140BF900F2CD82 /* DDTViewController.m in Sources */,
+				D668E02918140BF900F2CD82 /* DDTAppDelegate.m in Sources */,
+				D668E03518140BF900F2CD82 /* DDTMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668E03A18140BF900F2CD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668E04C18140BF900F2CD82 /* TurboGelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D668E04418140BF900F2CD82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D668E01218140BF900F2CD82 /* TurboGel */;
+			targetProxy = D668E04318140BF900F2CD82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D668E02118140BF900F2CD82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D668E02218140BF900F2CD82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D668E02A18140BF900F2CD82 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D668E02B18140BF900F2CD82 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D668E02D18140BF900F2CD82 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D668E02E18140BF900F2CD82 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D668E04818140BF900F2CD82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D668E04918140BF900F2CD82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D668E04D18140BF900F2CD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D668E04E18140BF900F2CD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D668E05018140BF900F2CD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurboGel/TurboGel-Prefix.pch";
+				INFOPLIST_FILE = "TurboGel/TurboGel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D668E05118140BF900F2CD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurboGel/TurboGel-Prefix.pch";
+				INFOPLIST_FILE = "TurboGel/TurboGel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D668E05318140BF900F2CD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TurboGel.app/TurboGel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurboGel/TurboGel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TurboGelTests/TurboGelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D668E05418140BF900F2CD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TurboGel.app/TurboGel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurboGel/TurboGel-Prefix.pch";
+				INFOPLIST_FILE = "TurboGelTests/TurboGelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D668E00E18140BF900F2CD82 /* Build configuration list for PBXProject "TurboGel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D668E04D18140BF900F2CD82 /* Debug */,
+				D668E04E18140BF900F2CD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D668E04F18140BF900F2CD82 /* Build configuration list for PBXNativeTarget "TurboGel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D668E05018140BF900F2CD82 /* Debug */,
+				D668E05118140BF900F2CD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D668E05218140BF900F2CD82 /* Build configuration list for PBXNativeTarget "TurboGelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D668E05318140BF900F2CD82 /* Debug */,
+				D668E05418140BF900F2CD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D668E00B18140BF900F2CD82 /* Project object */;
+}
